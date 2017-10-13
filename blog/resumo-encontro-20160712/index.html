@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:og="http://ogp.me/ns#"
+    xmlns:fb="https://www.facebook.com/2008/fbml"
+    itemscope itemtype="http://schema.org/Blog"
+    lang="pt">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+        <meta http-equiv="content-language" content="pt-br">
+        <meta name="robots" content="index, follow">
+        <meta name="description" content=""/>
+        <meta name="keywords" content=""/>
+        <meta name="author" content="Grupy-SE">
+        <meta name="generator" content="Feito com Materialize, Pelican,
+        Python e VIM. ">
+        <meta name="theme-color" content="light-blue"/>
+        <title>Terceiro encontro do PUG-SE | Grupy-SE</title>
+
+        <!-- Feeds -->
+            <link href="http://pug-se.github.io/blog/feeds.atom" type="application/atom+xml" rel="alternate" title="Grupy-SE ATOM Feed"/>
+            <link href="http://pug-se.github.io/blog/feeds.rss" type="application/rss+xml" rel="alternate" title="Grupy-SE RSS Feed"/>
+
+        <!-- CSS  -->
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="http://pug-se.github.io/theme/css/font-awesome.min.css">
+        <link href="http://pug-se.github.io/theme/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="http://pug-se.github.io/theme/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="http://pug-se.github.io/theme/css/animate.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="http://pug-se.github.io/theme/css/pygments/perldoc.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+    <link href="http://pug-se.github.io/theme/css/article.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+        <style type="text/css">
+          .hero {
+            height: 600px;
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)) repeat scroll 0 0%, rgba(0, 0, 0, 0) url('http://pug-se.github.io/images/banners/background.png'); repeat scroll 0 0;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            overflow: hidden;
+          }
+        </style>
+        <!-- Metadata -->
+    <!-- OpenGraph -->
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Terceiro encontro do PUG-SE"/>
+    <meta property="og:url" content="http://pug-se.github.io/blog/resumo-encontro-20160712"/>
+    <meta property="og:site_name" content="Grupy-SE"/>
+    <meta property="og:description" content="Resumo do 3º Encontro do Python User Group Sergipe, realizado em 12 de julho de 2016, na Rede+, em Aracaju, Sergipe."/>
+
+
+    <!-- Article meta -->
+    <meta property="article:author" content="Erick Mendonça"/>
+    <meta property="article:section" content="articles"/>
+    <meta property="article:tag" content="encontro, paralelismo, concorrência, análise de dados, big data"/>
+    <meta property="article:published_time" content="2016-07-12T19:00:00-03:00"/>
+
+    <!-- Google+ -->
+    <meta itemprop="name" content="Terceiro encontro do PUG-SE"/>
+    <meta itemprop="description" content="Resumo do 3º Encontro do Python User Group Sergipe, realizado em 12 de julho de 2016, na Rede+, em Aracaju, Sergipe."/>
+
+    <!-- General purpose meta -->
+    <meta name="description" content="Resumo do 3º Encontro do Python User Group Sergipe, realizado em 12 de julho de 2016, na Rede+, em Aracaju, Sergipe."/>
+    <meta name="keywords" content="encontro, paralelismo, concorrência, análise de dados, big data"/>
+
+    </head>
+
+    <body class="light-blue lighten-5">
+        <header>
+            <!-- Navigation -->
+<div class="navbar-fixed">
+    <nav class="light-blue role="navigation">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a id="logo-container" href="/" class="brand-logo">
+                    Grupy-SE
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li ><a href="http://pug-se.github.io/comunidade">Comunidade</a></li>
+                    <li ><a href="http://pug-se.github.io/membros">Membros</a></li>
+                    <li ><a href="http://pug-se.github.io/blog">Blog</a></li>
+                    <li ><a href="http://pug-se.github.io/blog/categorias">Categorias</a></li>
+                    <li ><a href="http://pug-se.github.io/blog/autores">Autores</a></li>
+                    <li ><a href="http://pug-se.github.io/blog/tags">Tags</a></li>
+                </ul>
+
+                <ul id="nav-mobile" class="side-nav">
+                    <li class="light-blue lighten-1" id="nav-mobile-header">
+                        <div class="row center">
+                            <div class="col s12" id="nav-mobile-header-img">
+                                <a href="/" alt="Grupy-SE" title="Grupy-SE">
+                                    <img class="circle responsive-img valign z-depth-1" alt="Grupy-SE Logo" title="Grupy-SE" src="http://pug-se.github.io/images/logo-mobile.png">
+                                </a>
+                            </div>
+                            <div class="col s12" id="nav-mobile-header-text">
+                                <span class="light-blue-text text-lighten-5">Grupy-SE</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li ><a href="http://pug-se.github.io/comunidade">Comunidade</a></li>
+                    <li ><a href="http://pug-se.github.io/membros">Membros</a></li>
+                    <li ><a href="http://pug-se.github.io/blog">Blog</a></li>
+                    <li ><a href="http://pug-se.github.io/blog/categorias">Categorias</a></li>
+                    <li ><a href="http://pug-se.github.io/blog/autores">Autores</a></li>
+                    <li ><a href="http://pug-se.github.io/blog/tags">Tags</a></li>
+                </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+            </div>
+        </div>
+    </nav>
+</div>
+            <!-- Banner -->
+<div class="hero hero-article" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('http://pug-se.github.io/images/banners/background.png')">
+</div>
+        </header>
+        <main>
+            <!-- Content -->
+<div class="container content-container">
+    <div style="bottom: 45px; right: 24px;" class="fixed-action-btn">
+        <a title="Código fonte no GitHub" class="btn-floating btn-large" href="http://github.com/pug-se/pug-se/tree/master/content/articles/resumo-encontro-20160712.md" target="_blank">
+            <i class="fa fa-code"></i> Código Fonte
+        </a>
+    </div>
+
+    <div class="row">
+        <div class="col s12 m12 l12 center-align animated bounceInDown slow article-meta">
+            <h1 class="white-text">Terceiro encontro do PUG-SE</h1>
+            <div class="article-metadata light-blue-text text-lighten-5">
+                <span class="article-author-name">
+                <a href="http://pug-se.github.io/blog/autores/erick-mendonca" title="Erick Mendonça" class="light-blue-text text-lighten-5">
+                        <i class="fa fa-user"></i> Erick Mendonça
+                    </a>
+                </span>
+                <span class="article-category">
+                <a href="http://pug-se.github.io/blog/categorias/articles" title="articles" class="light-blue-text text-lighten-5">
+                        <i class="fa fa-folder"></i> articles
+                    </a>
+                </span>
+                <span class="article-datetime">
+                    <i class="fa fa-calendar"></i> <time datetime="2016-07-12T19:00:00-03:00">Tue 12 July 2016</time>
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col s12 m12 l12 white z-depth-2 article">
+<ul class="breadcrumb">
+    <li>
+    <a class="grey-text text-darken-1" title="Grupy-SE Home" href="/"><i class="fa fa-home grey-text text-darken-2"></i></i></a>
+    </li>
+        <li>
+        <a class="grey-text text-darken-1" title="Grupy-SE Blog|escape" href="http://pug-se.github.io/blog">Grupy-SE Blog</a>
+        </li>
+        <li>
+        <a class="grey-text text-darken-1" title="articles|escape" href="http://pug-se.github.io/blog/categorias/articles">articles</a>
+        </li>
+        <li class="grey-text text-lighten-1">Terceiro encontro do PUG-SE</li>
+</ul>            <div class="article-contents">
+            <html><body><p>No último dia 12 de julho de 2016, foi realizado o terceiro encontro de usuários Python de Sergipe, o segundo neste ano! O meetup aconteceu no espaço da <a href="http://gruporedemais.com/">Rede+</a>.</p>
+<p>Depois do último encontro, a chama da comunidade foi acesa e agora teremos um grupo mais forte e com encontros recorrentes! [Não perca nenhuma reunião participando do nosso grupo no Meetup](http://www.meetup.com/pt-BR/pug-se/].</p>
+<h1>Paralelismo e Concorrência em Python</h1>
+<p>A primeira palestra foi apresentada por <a href="https://github.com/wagnerluis1982">Wagner Macedo</a>, apresentando uma discussão sobre os recursos nativos de Python para programação paralela e gerenciamento de concorrência.</p>
+<script async="" class="speakerdeck-embed" data-id="67e1556936834efbb9abc64ba94cbb33" data-ratio="1.37265415549598" src="//speakerdeck.com/assets/embed.js"></script>
+<h1>Análise de Dados com Python</h1>
+<p>Logo depois, o <a href="https://github.com/KhaoticMind">Antonio Viana</a> mostrou como Python atualmente é uma das linguagens open source mais usadas pela comunidade científica para a análise de dados e aprendizado de máquina. Em sua apresentação, foi demonstrado um pouco do ecossistema Python para análise de dados e um estudo de caso. </p>
+<iframe frameborder="0" height="541" marginheight="0" marginwidth="0" src="https://www.haikudeck.com/e/014b8d108e/?isUrlHashEnabled=false&amp;isPreviewEnabled=false&amp;isHeaderVisible=false" width="640"></iframe>
+<p><br/><span style="font-family: arial, sans-serif; font-size: 8pt;"><a href="https://www.haikudeck.com/p/014b8d108e" title="Analise de dados com Python">Analise de dados com Python</a> - Created with Haiku Deck, presentation software that inspires</span>;</p>
+<h1>Fotos do Evento e Meetup</h1>
+<p>Confira também as <a href="http://www.meetup.com/pt-BR/pug-se/photos/231827731/">fotos do evento</a> postadas no <a href="http://www.meetup.com/pt-BR/pug-se/">Meetup do grupo</a>! </p>
+<p>Lembrando: estamos também no <a href="https://telegram.me/joinchat/Acry5z79kyPZDqK4Bgu9FQ">Telegram</a>. É a melhor forma de conhecer a comunidade!</p></body></html>
+            </div>
+            <div class="article-tags">
+                <span class="icon"><i title="Tags do artigo" class="fa fa-tags"></i></i></span>
+                <span class="pill light-blue lighten-2"><a class="white-text" href="http://pug-se.github.io/blog/tags/encontro" title="Tag 'encontro'">encontro</a></span>
+                <span class="pill light-blue lighten-2"><a class="white-text" href="http://pug-se.github.io/blog/tags/paralelismo" title="Tag 'paralelismo'">paralelismo</a></span>
+                <span class="pill light-blue lighten-2"><a class="white-text" href="http://pug-se.github.io/blog/tags/concorrencia" title="Tag 'concorrência'">concorrência</a></span>
+                <span class="pill light-blue lighten-2"><a class="white-text" href="http://pug-se.github.io/blog/tags/analise-de-dados" title="Tag 'análise de dados'">análise de dados</a></span>
+                <span class="pill light-blue lighten-2"><a class="white-text" href="http://pug-se.github.io/blog/tags/big-data" title="Tag 'big data'">big data</a></span>
+            </div>
+        </div>
+    </div>
+
+
+</div>"
+
+            <!-- Footer -->
+<footer class="page-footer light-blue darken-3">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Sobre</h5>
+                <p class="grey-text text-lighten-4">
+                O Grupy-SE (anteriormente PUG-SE) é uma iniciativa comunitária que tem o objetivo de reunir os desenvolvedores e demais interessados na linguagem de programação Python e em suas tecnologias associadas.
+                </p>
+
+
+            </div>
+            <div class="col l3 offset-l3 s12">
+                <h5 class="white-text">Social</h5>
+                <ul class="social-links">
+                    <li>
+                        <a class="white-text" href="https://telegram.me/joinchat/Acry5z79kyPZDqK4Bgu9FQ" title="Telegram">
+                            <i class="fa fa-paper-plane"></i> Telegram
+                        </a>
+                    </li>
+                    <li>
+                        <a class="white-text" href="https://www.meetup.com/pug-se" title="Meetup">
+                            <i class="fa fa-meetup"></i> Meetup
+                        </a>
+                    </li>
+                    <li>
+                        <a class="white-text" href="https://github.com/pug-se" title="GitHub">
+                            <i class="fa fa-github"></i> GitHub
+                        </a>
+                    </li>
+                    <li>
+                        <a class="white-text" href="https://www.facebook.com/groups/pugse" title="Facebook">
+                            <i class="fa fa-facebook"></i> Facebook
+                        </a>
+                    </li>
+                    <li>
+                        <a class="white-text" href="https://groups.google.com/forum/#!forum/pug-se" title="Mailing List">
+                            <i class="fa fa-envelope"></i> Mailing List
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright light-blue darken-4">
+        <div class="container">
+            Feito com 
+            <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>,
+            <a class="orange-text text-lighten-3" href="https://github.com/getpelican/pelican">Pelican</a>,
+            <a class="orange-text text-lighten-3" href="https://python.org/">Python</a> e
+            <a class="orange-text text-lighten-3" href="http://vim.org">VIM</a>.
+        </div>
+    </div>
+</footer>
+            <!-- Scripts -->
+            <script src="http://pug-se.github.io/theme/js/jquery-2.1.1.min.js"></script>
+            <script src="http://pug-se.github.io/theme/js/materialize.min.js"></script>
+            <script src="http://pug-se.github.io/theme/js/parallax.js"></script>
+            <script src="http://pug-se.github.io/theme/js/init.js"></script>
+        </main>
+    </body>
+</html>
