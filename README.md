@@ -30,7 +30,7 @@ Uma vez criado o ambiente virtual com o comando acima, ele deve estar automatica
 
 Em seguida, clonamos o repositório:
 
-    (pug-se)$ git clone --recursive https://github.com/pug-se/pug-se.git
+    (pug-se)$ git clone --recursive https://github.com/pug-se/pug-se.git -b develop
 
 Será criada a cópia local na qual iremos trabalhar:
 
