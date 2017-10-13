@@ -8,7 +8,7 @@ OUTPUTDIR=$(BASEDIR)/pug-se.github.io
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
-GITHUB_PAGES_BRANCH=gh-pages
+GITHUB_PAGES_BRANCH=master
 
 FTP_HOST=localhost
 FTP_USER=anonymous
@@ -96,7 +96,7 @@ s3_upload: publish
 	s3cmd sync $(OUTPUTDIR)/ s3://$(S3_BUCKET) --acl-public --delete-removed
 
 github: publish
-	ghp-import $(OUTPUTDIR)
+	ghp-import -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
 	git push origin $(GITHUB_PAGES_BRANCH)
 
 .PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload github
