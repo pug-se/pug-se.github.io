@@ -11,8 +11,8 @@ from baseconf import *
 from collections import OrderedDict
 
 # Configurações Base
-SITENAME = u'Grupy-SE'
-AUTHOR = u'Grupy-SE'
+SITENAME = u'PUG-SE'
+AUTHOR = u'PUG-SE'
 THEME = "themes/malt"
 MALT_BASE_COLOR = "light-blue"
 
@@ -29,7 +29,7 @@ SITE_LOGO_MOBILE = "images/logo-mobile.png"
 WELCOME_TITLE = "Seja bem vindo ao {}".format(SITENAME)
 WELCOME_TEXT = "Grupo de usuários da linguagem Python em Sergipe."
 SITE_BACKGROUND_IMAGE = "images/banners/background.png"
-FOOTER_ABOUT = "O Grupy-SE (anteriormente PUG-SE) é uma iniciativa " +\
+FOOTER_ABOUT = "O PUG-SE é uma iniciativa " +\
                "comunitária que tem o objetivo de reunir os desenvolvedores " +\
                "e demais interessados na linguagem de programação Python " +\
                "e em suas tecnologias associadas."
@@ -172,7 +172,7 @@ MALT_HOME = [
             {
                 "title": "Membros",
                 "icon": "fa-users",
-                "text": "A comunidade Grupy-SE possui alguns " +\
+                "text": "A comunidade PUG-SE possui alguns " +\
                         "colaboradores principais, responsáveis por organizar " +\
                         "eventos, manter a comunicação ativa, divulgar eventos, " +\
                         "redes sociais e etc. ",
@@ -187,7 +187,7 @@ MALT_HOME = [
                 "title": "Chamada de trabalhos",
                 "icon": "fa-puzzle-piece",
                 "text": "Estamos selecionando palestras e sugestões de atividades para " +\
-                        "os próximos encontros do Grupy-SE. Sinta-se convidado para " +\
+                        "os próximos encontros do PUG-SE. Sinta-se convidado para " +\
                         "compartilhar com a nossa comunidade.",
                 "buttons": [
                     {
@@ -206,7 +206,7 @@ MALT_COMUNITY = [
         "items": [
             {
                 "title": "Mídias sociais",
-                "text": "Siga o Grupy-SE nas mídias sociais para ficar por dentro " +\
+                "text": "Siga o PUG-SE nas mídias sociais para ficar por dentro " +\
                         "dos encontros, novidades e postagens do nosso blog.",
                 "buttons": [
                     {
@@ -236,7 +236,7 @@ MALT_COMUNITY = [
             {
                 "title": "Lista de emails",
                 "text": "Para quem curte o bom e velho email, temos a lista " +\
-                        "de discussão oficial do Grupy-SE no google groups.",
+                        "de discussão oficial do PUG-SE no google groups.",
                 "buttons": [
                     {
                         "text": "Lista",
