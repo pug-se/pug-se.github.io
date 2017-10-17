@@ -22,7 +22,7 @@ GITHUB_BRANCH = "master"
 
 # Imagens
 ARTICLE_BANNERS_FOLDER = "images/banners"
-SITE_LOGO = "images/logo.png"
+SITE_LOGO = "images/logo-pug-se.png"
 SITE_LOGO_MOBILE = "images/logo-mobile.png"
 
 # Home settings
