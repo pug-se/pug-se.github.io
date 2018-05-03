@@ -1,0 +1,6 @@
+- A importância da prática deliberada para o aprendizado
+- Principais problemas ou obstáculos para a prática deliberada de programação
+- O que o coding dojo propõe como solução para esses problemas?
+- Principais práticas aplicadas ao coding dojo
+- Como funciona uma sessão de coding dojo?
+- Considerações finais
