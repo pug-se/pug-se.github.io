@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
     xmlns:og="http://ogp.me/ns#"
@@ -16,24 +15,21 @@
         <meta name="generator" content="Feito com Materialize, Pelican,
         Python e VIM. ">
         <meta name="theme-color" content="light-blue"/>
-        <title>Artigos na Tag 'ansible' | PUG-SE
-</title>
+        <title>Encontro Python Sergipe #6 | PUG-SE</title>
 
         <!-- Feeds -->
             <link href="http://pug-se.github.io/blog/feeds.atom" type="application/atom+xml" rel="alternate" title="PUG-SE ATOM Feed"/>
             <link href="http://pug-se.github.io/blog/feeds.rss" type="application/rss+xml" rel="alternate" title="PUG-SE RSS Feed"/>
 
         <!-- CSS  -->
-                <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="http://pug-se.github.io/theme/css/font-awesome.min.css">
         <link href="http://pug-se.github.io/theme/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="http://pug-se.github.io/theme/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="http://pug-se.github.io/theme/css/animate.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="http://pug-se.github.io/theme/css/pygments/perldoc.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
-    <link href="http://pug-se.github.io/theme/css/index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-
-    <link href="http://pug-se.github.io/theme/css/tag-category-author-index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="http://pug-se.github.io/theme/css/article.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
         <style type="text/css">
           .hero {
@@ -50,7 +46,27 @@
           }
         </style>
         <!-- Metadata -->
-        <meta property="og:type" content="website"/>
+    <!-- OpenGraph -->
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Encontro Python Sergipe #6"/>
+    <meta property="og:url" content="http://pug-se.github.io/blog/resumo-pugse6"/>
+    <meta property="og:site_name" content="PUG-SE"/>
+    <meta property="og:description" content="Resumo da sexta edição do encontro do Python User Group Sergipe, realizado em 30 de maio de 2018, na Rede+, em Aracaju, Sergipe."/>
+
+
+    <!-- Article meta -->
+    <meta property="article:author" content="Rodrigo Amaral"/>
+    <meta property="article:section" content="articles"/>
+    <meta property="article:tag" content="encontro, micropython, dicas"/>
+    <meta property="article:published_time" content="2018-05-30T19:00:00-03:00"/>
+
+    <!-- Google+ -->
+    <meta itemprop="name" content="Encontro Python Sergipe #6"/>
+    <meta itemprop="description" content="Resumo da sexta edição do encontro do Python User Group Sergipe, realizado em 30 de maio de 2018, na Rede+, em Aracaju, Sergipe."/>
+
+    <!-- General purpose meta -->
+    <meta name="description" content="Resumo da sexta edição do encontro do Python User Group Sergipe, realizado em 30 de maio de 2018, na Rede+, em Aracaju, Sergipe."/>
+    <meta name="keywords" content="encontro, micropython, dicas"/>
 
     </head>
 
@@ -99,19 +115,42 @@
     </nav>
 </div>
             <!-- Banner -->
-            <div class="hero parallax-effect">
-                <div class="container">
-                    <div class="hero-content animated bounceInDown slow">
-                        <img src="http://pug-se.github.io/images/logo-pug-se.png" title="PUG-SE" alt="PUG-SE" class="logo"/>
-<h1>Artigos na Tag 'ansible'</h1>
-                    </div>
-                </div>
-            </div>
+<div class="hero hero-article" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('http://pug-se.github.io/images/banners/spectrum.png')">
+</div>
         </header>
         <main>
             <!-- Content -->
 <div class="container content-container">
+    <div style="bottom: 45px; right: 24px;" class="fixed-action-btn">
+        <a title="Código fonte no GitHub" class="btn-floating btn-large" href="http://github.com/pug-se/pug-se/tree/master/content/articles/resumo-encontro-20180530.md" target="_blank">
+            <i class="fa fa-code"></i> Código Fonte
+        </a>
+    </div>
+
     <div class="row">
+        <div class="col s12 m12 l12 center-align animated bounceInDown slow article-meta">
+            <h1 class="white-text">Encontro Python Sergipe #6</h1>
+            <div class="article-metadata light-blue-text text-lighten-5">
+                <span class="article-author-name">
+                <a href="http://pug-se.github.io/blog/autores/rodrigo-amaral" title="Rodrigo Amaral" class="light-blue-text text-lighten-5">
+                        <i class="fa fa-user"></i> Rodrigo Amaral
+                    </a>
+                </span>
+                <span class="article-category">
+                <a href="http://pug-se.github.io/blog/categorias/articles" title="articles" class="light-blue-text text-lighten-5">
+                        <i class="fa fa-folder"></i> articles
+                    </a>
+                </span>
+                <span class="article-datetime">
+                    <i class="fa fa-calendar"></i> <time datetime="2018-05-30T19:00:00-03:00">Qua 30 Maio 2018</time>
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col s12 m12 l12 white z-depth-2 article">
 <ul class="breadcrumb">
     <li>
     <a class="grey-text text-darken-1" title="PUG-SE Home" href="/"><i class="fa fa-home grey-text text-darken-2"></i></i></a>
@@ -120,56 +159,31 @@
         <a class="grey-text text-darken-1" title="PUG-SE Blog|escape" href="http://pug-se.github.io/blog">PUG-SE Blog</a>
         </li>
         <li>
-        <a class="grey-text text-darken-1" title="Tags|escape" href="http://pug-se.github.io/blog/tags">Tags</a>
+        <a class="grey-text text-darken-1" title="articles|escape" href="http://pug-se.github.io/blog/categorias/articles">articles</a>
         </li>
-        <li class="grey-text text-lighten-1">ansible</li>
-</ul>        <div class="col s12 m6 l4">
-            <div class="card">
-                <div class="card-image row light-blue-text text-lighten-5 article-header" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('http://pug-se.github.io/images/banners/blurs.png')">
-                    <div class="article-header-text valign-wrapper">
-                        <div class="article-title col s12 m12 l12">
-                            <h2>
-                                <a class="light-blue-text text-lighten-5" href="http://pug-se.github.io/blog/resumo-encontro-20160913" title="Quarto encontro do PUG-SE">Quarto encontro do PUG-SE</a>
-                            </h2>
-                            <div class="article-metadata">
-                                <span class="article-author-name">
-                                    <a href="http://pug-se.github.io/blog/autores/rodrigo-amaral" title="Rodrigo Amaral" class="light-blue-text text-lighten-5">
-                                        <i class="fa fa-user"></i> Rodrigo Amaral
-                                    </a>
-                                </span>
-                                <span class="article-category">
-                                    <a href="http://pug-se.github.io/blog/categorias/articles" title="articles" class="light-blue-text text-lighten-5">
-                                        <i class="fa fa-folder"></i> articles
-                                    </a>
-                                </span>
-                                <span class="article-datetime">
-                                    <i class="fa fa-calendar"></i> <time datetime="2016-09-13T19:00:00-03:00">Ter 13 Setembro 2016</time>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-content article-contents">
-                    <p>Resumo do 4º Encontro do Python User Group Sergipe, realizado em 13 de setembro de 2016, na Rede+, em Aracaju, Sergipe.</p>
-                </div>
-                <div class="card-action">
-                    <a href="http://pug-se.github.io/blog/resumo-encontro-20160913">Continuar lendo...</a>
-                </div>
+        <li class="grey-text text-lighten-1">Encontro Python Sergipe #6</li>
+</ul>            <div class="article-contents">
+            <html><body><h2>MicroPython: Mais Recursos para Programação em Dispositivos Restritos</h2>
+<p>Na primeira palestra, Antonio Campos (Tony) estendeu o assunto iniciado no encontro anterior, apresentando mais recursos do MicroPython. Mais uma vez, tivemos exemplos práticos ao vivo para demonstrar o funcionamento de dispositivos programados em Python.</p>
+<iframe allowfullscreen="true" frameborder="0" height="480" mozallowfullscreen="true" src="https://docs.google.com/presentation/d/e/2PACX-1vS-JzB928j1aeZYJUE0gNZEbzDW-RY6zgZNEKdE3VBU4oak7qEiPl9-hTiSiPWPJrORFdm4GTJ_Q1L2/embed?start=false&amp;loop=false&amp;delayms=3000" webkitallowfullscreen="true" width="640"></iframe>
+<h2>Python Gotchas: Curiosidades que Podem Salvar seu Dia</h2>
+<p>Depois, tivemos uma palestra "internacional". Diretamente de San Francisco, por videoconferência, Erick Mendonça conversou com a gente sobre algumas pegadinhas da linguagem Python.</p>
+<script async="" class="speakerdeck-embed" data-id="8ce9583d0fc84a8088791faeb6cca05b" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+<h2>Fotos do Evento e Meetup</h2>
+<p>Confira também as <a href="https://www.meetup.com/pt-BR/pug-se/photos/28926864/">fotos do evento</a> postadas no <a href="http://www.meetup.com/pt-BR/pug-se/">Meetup do grupo</a>! </p>
+<p>Lembrando: estamos também no <a href="https://t.me/pugse">Telegram</a>. É a melhor forma de conhecer a comunidade!</p></body></html>
             </div>
-        </div>
-        <div class="col s12" id="pagination">
-            <div id="pagination-card" class="col s12 white z-depth-1 valign-wrapper">
-                <ul class="pagination valign">
-                        <li class="disabled"><a href=""><i class="material-icons">chevron_left</i></a></li>
-
-                            <li class="active"><a href="">1</a></li>
-
-                        <li class="disabled"><a href=""><i class="material-icons">chevron_right</i></a></li>
-                </ul>
+            <div class="article-tags">
+                <span class="icon"><i title="Tags do artigo" class="fa fa-tags"></i></i></span>
+                <span class="pill light-blue lighten-2"><a class="white-text" href="http://pug-se.github.io/blog/tags/encontro" title="Tag 'encontro'">encontro</a></span>
+                <span class="pill light-blue lighten-2"><a class="white-text" href="http://pug-se.github.io/blog/tags/micropython" title="Tag 'micropython'">micropython</a></span>
+                <span class="pill light-blue lighten-2"><a class="white-text" href="http://pug-se.github.io/blog/tags/dicas" title="Tag 'dicas'">dicas</a></span>
             </div>
         </div>
     </div>
-</div>
+
+
+</div>"
 
             <!-- Footer -->
 <footer class="page-footer light-blue darken-3">

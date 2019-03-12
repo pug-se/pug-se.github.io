@@ -5,14 +5,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://pug-se.github.io/</loc>
-<lastmod>2018-05-20T15:23:24-00:00</lastmod>
+<lastmod>2019-03-12T10:16:58-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.2</priority>
 </url>
 
 <url>
 <loc>http://pug-se.github.io/archives.html</loc>
-<lastmod>2018-05-20T15:23:24-00:00</lastmod>
+<lastmod>2019-03-12T10:16:58-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.2</priority>
 </url>
@@ -26,27 +26,34 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://pug-se.github.io/comunidade</loc>
-<lastmod>2018-05-20T15:23:24-00:00</lastmod>
+<lastmod>2019-03-12T10:16:58-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://pug-se.github.io/index</loc>
-<lastmod>2018-05-20T15:23:24-00:00</lastmod>
+<lastmod>2019-03-12T10:16:58-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
 <loc>http://pug-se.github.io/membros</loc>
-<lastmod>2018-05-20T15:23:24-00:00</lastmod>
+<lastmod>2019-03-12T10:16:58-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>http://pug-se.github.io/blog/resumo-encontro-20100425</loc>
+<loc>http://pug-se.github.io/blog/resumo-pugse6</loc>
+<lastmod>2018-05-30T19:00:00-03:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>http://pug-se.github.io/blog/resumo-encontro-20180425</loc>
 <lastmod>2018-04-25T19:00:00-03:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
@@ -117,21 +124,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://pug-se.github.io/blog/categorias/articles</loc>
-<lastmod>2018-04-25T19:00:00-02:23</lastmod>
+<lastmod>2018-05-30T19:00:00-02:23</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.2</priority>
 </url>
 
 <url>
 <loc>http://pug-se.github.io/blog/tags/encontro</loc>
-<lastmod>2018-04-25T19:00:00-02:23</lastmod>
+<lastmod>2018-05-30T19:00:00-02:23</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.2</priority>
 </url>
 
 <url>
 <loc>http://pug-se.github.io/blog/tags/micropython</loc>
-<lastmod>2018-04-25T19:00:00-02:23</lastmod>
+<lastmod>2018-05-30T19:00:00-02:23</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.2</priority>
+</url>
+
+<url>
+<loc>http://pug-se.github.io/blog/tags/dicas</loc>
+<lastmod>2018-05-30T19:00:00-02:23</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.2</priority>
 </url>
@@ -264,7 +278,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://pug-se.github.io/blog/autores/rodrigo-amaral</loc>
-<lastmod>2018-04-25T19:00:00-02:23</lastmod>
+<lastmod>2018-05-30T19:00:00-02:23</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.2</priority>
 </url>
