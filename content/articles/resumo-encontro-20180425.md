@@ -1,7 +1,7 @@
 Title: Encontro Python Sergipe #5
 Date: 2018-04-25 19:00
 Tags: encontro, micropython, pipenv
-Slug: resumo-encontro-20100425
+Slug: resumo-encontro-20180425
 Author: Rodrigo Amaral
 Summary: Resumo da quinta edição do encontro do Python User Group Sergipe, realizado em 25 de abril de 2018, na Rede+, em Aracaju, Sergipe. 
 
