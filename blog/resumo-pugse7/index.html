@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
     xmlns:og="http://ogp.me/ns#"
@@ -16,7 +15,7 @@
         <meta name="generator" content="Feito com Materialize, Pelican,
         Python e VIM. ">
         <meta name="theme-color" content="light-blue"/>
-        <title>Categorias | PUG-SE</title>
+        <title>Encontro Python Sergipe #7 | PUG-SE</title>
 
         <!-- Feeds -->
             <link href="http://pug-se.github.io/blog/feeds.atom" type="application/atom+xml" rel="alternate" title="PUG-SE ATOM Feed"/>
@@ -30,7 +29,7 @@
         <link href="http://pug-se.github.io/theme/css/animate.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="http://pug-se.github.io/theme/css/pygments/perldoc.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
-    <link href="http://pug-se.github.io/theme/css/categories.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="http://pug-se.github.io/theme/css/article.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
         <style type="text/css">
           .hero {
@@ -47,7 +46,27 @@
           }
         </style>
         <!-- Metadata -->
-        <meta property="og:type" content="website"/>
+    <!-- OpenGraph -->
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Encontro Python Sergipe #7"/>
+    <meta property="og:url" content="http://pug-se.github.io/blog/resumo-pugse7"/>
+    <meta property="og:site_name" content="PUG-SE"/>
+    <meta property="og:description" content="Resumo da sétima edição do encontro do Python User Group Sergipe, realizado em 23 de fevereiro de 2019, na Faculdade Estácio/FASE, em Aracaju, Sergipe."/>
+
+
+    <!-- Article meta -->
+    <meta property="article:author" content="Rodrigo Amaral"/>
+    <meta property="article:section" content="articles"/>
+    <meta property="article:tag" content="encontro, dados-publicos, api, iniciantes"/>
+    <meta property="article:published_time" content="2019-02-23T09:00:00-03:00"/>
+
+    <!-- Google+ -->
+    <meta itemprop="name" content="Encontro Python Sergipe #7"/>
+    <meta itemprop="description" content="Resumo da sétima edição do encontro do Python User Group Sergipe, realizado em 23 de fevereiro de 2019, na Faculdade Estácio/FASE, em Aracaju, Sergipe."/>
+
+    <!-- General purpose meta -->
+    <meta name="description" content="Resumo da sétima edição do encontro do Python User Group Sergipe, realizado em 23 de fevereiro de 2019, na Faculdade Estácio/FASE, em Aracaju, Sergipe."/>
+    <meta name="keywords" content="encontro, dados-publicos, api, iniciantes"/>
 
     </head>
 
@@ -65,7 +84,7 @@
                     <li ><a href="http://pug-se.github.io/comunidade">Comunidade</a></li>
                     <li ><a href="http://pug-se.github.io/membros">Membros</a></li>
                     <li ><a href="http://pug-se.github.io/blog">Blog</a></li>
-                    <li class="active"><a href="http://pug-se.github.io/blog/categorias">Categorias</a></li>
+                    <li ><a href="http://pug-se.github.io/blog/categorias">Categorias</a></li>
                     <li ><a href="http://pug-se.github.io/blog/autores">Autores</a></li>
                     <li ><a href="http://pug-se.github.io/blog/tags">Tags</a></li>
                 </ul>
@@ -86,7 +105,7 @@
                     <li ><a href="http://pug-se.github.io/comunidade">Comunidade</a></li>
                     <li ><a href="http://pug-se.github.io/membros">Membros</a></li>
                     <li ><a href="http://pug-se.github.io/blog">Blog</a></li>
-                    <li class="active"><a href="http://pug-se.github.io/blog/categorias">Categorias</a></li>
+                    <li ><a href="http://pug-se.github.io/blog/categorias">Categorias</a></li>
                     <li ><a href="http://pug-se.github.io/blog/autores">Autores</a></li>
                     <li ><a href="http://pug-se.github.io/blog/tags">Tags</a></li>
                 </ul>
@@ -96,19 +115,42 @@
     </nav>
 </div>
             <!-- Banner -->
-            <div class="hero parallax-effect">
-                <div class="container">
-                    <div class="hero-content animated bounceInDown slow">
-                        <img src="http://pug-se.github.io/images/logo-pug-se.png" title="PUG-SE" alt="PUG-SE" class="logo"/>
-<h1>Categorias</h1>
-                    </div>
-                </div>
-            </div>
+<div class="hero hero-article" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('http://pug-se.github.io/images/banners/blurs.png')">
+</div>
         </header>
         <main>
             <!-- Content -->
 <div class="container content-container">
+    <div style="bottom: 45px; right: 24px;" class="fixed-action-btn">
+        <a title="Código fonte no GitHub" class="btn-floating btn-large" href="http://github.com/pug-se/pug-se/tree/master/content/articles/resumo-encontro-20190223.md" target="_blank">
+            <i class="fa fa-code"></i> Código Fonte
+        </a>
+    </div>
+
     <div class="row">
+        <div class="col s12 m12 l12 center-align animated bounceInDown slow article-meta">
+            <h1 class="white-text">Encontro Python Sergipe #7</h1>
+            <div class="article-metadata light-blue-text text-lighten-5">
+                <span class="article-author-name">
+                <a href="http://pug-se.github.io/blog/autores/rodrigo-amaral" title="Rodrigo Amaral" class="light-blue-text text-lighten-5">
+                        <i class="fa fa-user"></i> Rodrigo Amaral
+                    </a>
+                </span>
+                <span class="article-category">
+                <a href="http://pug-se.github.io/blog/categorias/articles" title="articles" class="light-blue-text text-lighten-5">
+                        <i class="fa fa-folder"></i> articles
+                    </a>
+                </span>
+                <span class="article-datetime">
+                    <i class="fa fa-calendar"></i> <time datetime="2019-02-23T09:00:00-03:00">Sáb 23 Fevereiro 2019</time>
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col s12 m12 l12 white z-depth-2 article">
 <ul class="breadcrumb">
     <li>
     <a class="grey-text text-darken-1" title="PUG-SE Home" href="/"><i class="fa fa-home grey-text text-darken-2"></i></i></a>
@@ -116,34 +158,43 @@
         <li>
         <a class="grey-text text-darken-1" title="PUG-SE Blog|escape" href="http://pug-se.github.io/blog">PUG-SE Blog</a>
         </li>
-        <li class="grey-text text-lighten-1">Categorias</li>
-</ul>        <div class="categories">
-            <ul data-collapsible="accordion" class="collapsible popout collapsible-accordion">
-                <li class="">
-                    <div class="collapsible-header" title="Categoria articles">
-                        articles <span class="pull-right pill light-blue lighten-1 white-text">12</span>
-                    </div>
-                    <div class="collapsible-body white" style="display: block;">
-                        <div class="contents">
-                            <span><time class="grey-text" datetime="2019-02-23T09:00:00-03:00">Sáb 23 Fevereiro 2019</time> <a class="grey-text text-darken-4" title="Artigo 'Encontro Python Sergipe #7'" href="http://pug-se.github.io/blog/resumo-pugse7">Encontro Python Sergipe #7</a></span>
-                            <span><time class="grey-text" datetime="2018-05-30T19:00:00-03:00">Qua 30 Maio 2018</time> <a class="grey-text text-darken-4" title="Artigo 'Encontro Python Sergipe #6'" href="http://pug-se.github.io/blog/resumo-pugse6">Encontro Python Sergipe #6</a></span>
-                            <span><time class="grey-text" datetime="2018-04-25T19:00:00-03:00">Qua 25 Abril 2018</time> <a class="grey-text text-darken-4" title="Artigo 'Encontro Python Sergipe #5'" href="http://pug-se.github.io/blog/resumo-encontro-20180425">Encontro Python Sergipe #5</a></span>
-                            <span><time class="grey-text" datetime="2016-09-13T19:00:00-03:00">Ter 13 Setembro 2016</time> <a class="grey-text text-darken-4" title="Artigo 'Quarto encontro do PUG-SE'" href="http://pug-se.github.io/blog/resumo-encontro-20160913">Quarto encontro do PUG-SE</a></span>
-                            <span><time class="grey-text" datetime="2016-07-12T19:00:00-03:00">Ter 12 Julho 2016</time> <a class="grey-text text-darken-4" title="Artigo 'Terceiro encontro do PUG-SE'" href="http://pug-se.github.io/blog/resumo-encontro-20160712">Terceiro encontro do PUG-SE</a></span>
-                            <span><time class="grey-text" datetime="2016-05-28T13:03:00-03:00">Sáb 28 Maio 2016</time> <a class="grey-text text-darken-4" title="Artigo 'Segundo encontro do PUG-SE, o recomeço!'" href="http://pug-se.github.io/blog/resumo-encontro-20160524">Segundo encontro do PUG-SE, o recomeço!</a></span>
-                            <span><time class="grey-text" datetime="2014-06-19T16:25:00-03:00">Qui 19 Junho 2014</time> <a class="grey-text text-darken-4" title="Artigo 'Django Lab no GDG Aracaju'" href="http://pug-se.github.io/blog/gdg-aracaju-django-lab">Django Lab no GDG Aracaju</a></span>
-                            <span><time class="grey-text" datetime="2014-03-02T15:35:00-03:00">Dom 02 Março 2014</time> <a class="grey-text text-darken-4" title="Artigo 'RuPy Sergipe 2014'" href="http://pug-se.github.io/blog/rupy-sergipe-2014">RuPy Sergipe 2014</a></span>
-                            <span><time class="grey-text" datetime="2014-02-25T17:50:00-03:00">Ter 25 Fevereiro 2014</time> <a class="grey-text text-darken-4" title="Artigo 'Hands-on de Python e Google App Engine no GDG Aracaju'" href="http://pug-se.github.io/blog/gdg-aracaju-python-google-app-engine">Hands-on de Python e Google App Engine no GDG Aracaju</a></span>
-                            <span><time class="grey-text" datetime="2013-11-12T21:18:00-03:00">Ter 12 Novembro 2013</time> <a class="grey-text text-darken-4" title="Artigo 'Python Day Sergipe'" href="http://pug-se.github.io/blog/python-day-sergipe">Python Day Sergipe</a></span>
-                            <span><time class="grey-text" datetime="2013-07-18T17:05:00-03:00">Qui 18 Julho 2013</time> <a class="grey-text text-darken-4" title="Artigo 'Laboratório Django'" href="http://pug-se.github.io/blog/laboratorio-django">Laboratório Django</a></span>
-                            <span><time class="grey-text" datetime="2013-05-08T17:35:00-03:00">Qua 08 Maio 2013</time> <a class="grey-text text-darken-4" title="Artigo 'Resumo do primeiro encontro do PUG-SE'" href="http://pug-se.github.io/blog/resumo-encontro-20130430">Resumo do primeiro encontro do PUG-SE</a></span>
-                            </div>
-                    </div>
-                </li>
-            </ul>
+        <li>
+        <a class="grey-text text-darken-1" title="articles|escape" href="http://pug-se.github.io/blog/categorias/articles">articles</a>
+        </li>
+        <li class="grey-text text-lighten-1">Encontro Python Sergipe #7</li>
+</ul>            <div class="article-contents">
+            <html><body><p><img alt="Foto oficial do encontro" src="/images/foto-oficial-pugse7.jpg" style="width: 1064px; height: auto; max-width: 100%;"/></p>
+<p>Em 2019, as atividades do PUG-SE começaram mais cedo do que de costume. Antes mesmo do carnaval a turma já estava entusiasmada para compartilhar conhecimento sobre Python. Então, com o apoio da <a href="http://portal.estacio.br/unidades/faculdade-est%C3%A1cio-de-sergipe/">Faculdade Estácio/FASE</a> que gentilmente hospedou o evento (valeu, Felipe e Márcio!), realizamos mais uma edição dos meetups do Python User Group Sergipe.</p>
+<p>Atendendo a pedidos, conseguimos marcar o encontro para um dia de sábado pela manhã. O novo horário foi aprovado pelos participantes e, de agora em diante, esperamos realizar os próximos meetups aos sábados. A mudança de dia e o apoio da Estácio na divulgação fizeram diferença positiva no comparecimento do público, que ocupou boa parte da sala.</p>
+<p>Tivemos ainda o sorteio de brindes! Dessa vez os participantes concorreram a um exemplar do livro <a href="https://python.nilo.pro.br/">Introdução à Programação com Python</a>, um dos melhores recursos para iniciantes disponível em português.</p>
+<h2>Coletando dados públicos com Python</h2>
+<p>Tony Campos abriu o evento falando sobre como coletar dados por meio de APis públicas utilizando Python. Como exemplo, Tony mostrou como usar dados meteorológicos do CPTEC/INPE em um projeto de automação residencial.</p>
+<p>O código demonstrado na palestra está disponível no Github.</p>
+<ul>
+<li><a href="https://github.com/tonyldo/BrazilianForecastIO">BrazilianForecastIO</a></li>
+</ul>
+<h2>Python: a jornada para se tornar um Jedi</h2>
+<p>Na segunda palestra da manhã, Gabriel Thiago compartilhou sua trajetória no aprendizado de Python ao mesmo tempo em que apresentou um rápido tutorial da linguagem. De forma didática e bem humorada, os participantes tiveram a oportunidade de conhecer as principais características da sintaxe e os recursos embutidos que permitem criar aplicações avançadas escrevendo pouco código.</p>
+<p>Como exemplo, Gabriel demonstrou como escrever um programa para acessar a API do Twitter. Slides e código usados na palestra estão disponíveis no Github.</p>
+<ul>
+<li><a href="https://github.com/GabrielF9/palestra-python-jedi">Python: a jornada para se tornar um Jedi </a></li>
+</ul>
+<h2>Fotos do Evento e Meetup</h2>
+<p>Confira também as <a href="https://www.meetup.com/pt-BR/pug-se/photos/29732914/">fotos do evento</a> postadas no <a href="http://www.meetup.com/pt-BR/pug-se/">Meetup do grupo</a>! </p>
+<p><strong>Lembrando:</strong> estamos também no <a href="https://t.me/pugse">Telegram</a>. É a melhor forma de conhecer a comunidade!</p></body></html>
+            </div>
+            <div class="article-tags">
+                <span class="icon"><i title="Tags do artigo" class="fa fa-tags"></i></i></span>
+                <span class="pill light-blue lighten-2"><a class="white-text" href="http://pug-se.github.io/blog/tags/encontro" title="Tag 'encontro'">encontro</a></span>
+                <span class="pill light-blue lighten-2"><a class="white-text" href="http://pug-se.github.io/blog/tags/dados-publicos" title="Tag 'dados-publicos'">dados-publicos</a></span>
+                <span class="pill light-blue lighten-2"><a class="white-text" href="http://pug-se.github.io/blog/tags/api" title="Tag 'api'">api</a></span>
+                <span class="pill light-blue lighten-2"><a class="white-text" href="http://pug-se.github.io/blog/tags/iniciantes" title="Tag 'iniciantes'">iniciantes</a></span>
+            </div>
         </div>
     </div>
-</div>
+
+
+</div>"
 
             <!-- Footer -->
 <footer class="page-footer light-blue darken-3">
