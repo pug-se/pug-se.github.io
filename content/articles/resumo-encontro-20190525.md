@@ -19,7 +19,7 @@ Thiago Bispo iniciou a manhã falando sobre aplicações desktop com PyQT5. A pa
 
 Na segunda palestra do dia, Octávio Santana apresentou uma breve introdução ao processamento de linguagem natural. Usando apenas um conhecimento básico de vetores e bibliotecas nativas do Python, Octávio mostrou como construir um algoritmo que analisa o quanto dois textos são similares.
 
-- **Slides:** [Introdução ao Processamento de Linguagem Natural com Python]() (em breve)
+- **Slides e código:** [Introdução ao Processamento de Linguagem Natural com Python](https://github.com/Octavio-Santana/Encontro_Python_Sergipe_8)
 
 ## Publicando bibliotecas open source no Python Package Index
 
