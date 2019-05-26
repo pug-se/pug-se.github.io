@@ -9,7 +9,7 @@
 &lt;h2&gt;Introdução ao Processamento de Linguagem Natural com Python&lt;/h2&gt;
 &lt;p&gt;Na segunda palestra do dia, Octávio Santana apresentou uma breve introdução ao processamento de linguagem natural. Usando apenas um conhecimento básico de vetores e bibliotecas nativas do Python, Octávio mostrou como construir um algoritmo que analisa o quanto dois textos são similares.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Slides:&lt;/strong&gt; &lt;a href=""&gt;Introdução ao Processamento de Linguagem Natural com Python&lt;/a&gt; (em breve)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Slides e código:&lt;/strong&gt; &lt;a href="https://github.com/Octavio-Santana/Encontro_Python_Sergipe_8"&gt;Introdução ao Processamento de Linguagem Natural com Python&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Publicando bibliotecas open source no Python Package Index&lt;/h2&gt;
 &lt;p&gt;Para encerrar o evento, Wagner Macedo mostrou um passo a passo prático sobre como publicar pacotes Python no PyPI, o repositório oficial de bibliotecas de terceiros do Python. Wagner apresentou uma breve introdução ao pip e ao PyPI e mostrou como criar o arquivo de configuração de pacotes (setup.py) levando em conta versionamento, testes e documentação. Também foi abordado como fazer o registro no PyPI e como fazer o upload de um pacote para publicação.&lt;/p&gt;
