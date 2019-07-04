@@ -51,6 +51,10 @@ NAVBAR_HOME_LINKS = [
         "title": "Blog",
         "href": "blog",
     },
+    {
+        "title": "Apoiadores",
+        "href": "apoiadores",
+    },
 ]
 
 # Navbar Links do Blog
