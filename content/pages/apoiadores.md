@@ -1,4 +1,5 @@
 Title: Nossos apoiadores
+Date: 2019-07-04
 slug: apoiadores
 
 O Python User Group de Sergipe é uma iniciativa feita pela comunidade e para a comunidade. A principal motivação de todos os que dela participam é a vontade de manter um ambiente inclusivo e amigável para troca de conhecimentos e para o crescimento pessoal e profissional de todos os envolvidos.
