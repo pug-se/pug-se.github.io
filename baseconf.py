@@ -51,14 +51,16 @@ CATEGORY_FEED_RSS = None
 ## Plugins
 PLUGIN_PATHS = ['./.plugins']
 PLUGINS = [
-        'better_figures_and_images',
-        'sitemap',
-        'welcome-helpers',
-        ]
+    'better_figures_and_images',
+    'sitemap',
+    'welcome-helpers',
+]
 
 # Static content
+
 STATIC_PATHS = ['images', 'extra/CNAME', 'images/favicon.ico']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},
+                       'extra/README': {'path': 'README.md'},
                        'images/favicon.ico': {'path': 'favicon.ico'}}
 
 # Plugins settings
