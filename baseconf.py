@@ -57,8 +57,9 @@ PLUGINS = [
         ]
 
 # Static content
-STATIC_PATHS = ['images', 'extra/CNAME']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+STATIC_PATHS = ['images', 'extra/CNAME', 'images/favicon.ico']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},
+                       'images/favicon.ico': {'path': 'favicon.ico'}}
 
 # Plugins settings
 RESPONSIVE_IMAGES = True
