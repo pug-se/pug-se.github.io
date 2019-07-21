@@ -16,5 +16,6 @@ Um MUITO OBRIGADO especial para os nossos super apoiadores:
 - Anderson Filgueira Farias
 - Erick Mendonça
 - Felipet65
+- Gabriel DS
 - Icaro Rogerio Gomes Ramos
 - Thiago Dias Bispo
