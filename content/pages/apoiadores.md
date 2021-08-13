@@ -1,21 +1,24 @@
 Title: Nossos apoiadores
-Date: 2019-07-04
+Date: 2021-08-12
 slug: apoiadores
 
-O Python User Group de Sergipe é uma iniciativa feita pela comunidade e para a comunidade. A principal motivação de todos os que dela participam é a vontade de manter um ambiente inclusivo e amigável para troca de conhecimentos e para o crescimento pessoal e profissional de todos os envolvidos.
+## AVISO
 
-Para que as iniciativas do PUG-SE aconteçam, no entanto, é necessário cobrir algumas pequenas despesas com a manutenção de nossa presença digital e com a logística dos encontros presenciais. Por isso, criamos uma [campanha de apoiadores](https://apoia.se/pug-se) para todos aqueles que quiserem contribuir com uma pequena quantia mensal.
+> Como é de conhecimento geral, a pandemia causada pelo novo coronavírus impossibilitou os nossos tradicionais encontros presenciais. Uma vez que as principais despesas de manutenção do PUG-SE são relacionadas aos encontros, achamos que a atitude mais justa com nossos apoiadores e apoiadoras é **suspender a campanha de financiamento coletivo contínuo** enquanto não for possível nos encontrarmos presencialmente.
 
-> **Veja mais detalhes sobre como apoiar a campanha em [https://apoia.se/pug-se](https://apoia.se/pug-se)**
+> Assim que pudermos retomar os encontros presenciais do PUG-SE, será uma grande satisfação contar com o seu apoio!
 
-## Agradecimentos
+### Agradecimentos
 
 Um MUITO OBRIGADO especial para os nossos super apoiadores:
 
-- Alexandre Sá
-- Anderson Filgueira Farias
-- Erick Mendonça
-- Felipet65
-- Gabriel DS
-- Icaro Rogerio Gomes Ramos
-- Thiago Dias Bispo
+- ALEXANDRE SÁ
+- ANDERSON FILGUEIRA FARIAS
+- ANTONIO CLEVERSON DOS SANTOS
+- CRISTILANE
+- EDUARDO MOTA FONTES
+- FELIPET65
+- GABRIEL DS
+- ICARO ROGERIO GOMES RAMOS
+- JONATAS AGUIAR
+- THIAGO DIAS BISPO
